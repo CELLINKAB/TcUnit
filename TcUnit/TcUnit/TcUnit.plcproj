@@ -4,7 +4,7 @@
     <!-- <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>-->
     <FileVersion>1.0.0.0</FileVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{bc994085-3b01-480d-ab11-95935fc773ee}</ProjectGuid>
+    <ProjectGuid>{396e543f-20c4-4f01-b294-217c0f1fb338}</ProjectGuid>
     <SubObjectsSortedByName>True</SubObjectsSortedByName>
     <Name>TcUnit</Name>
     <ProgramVersion>3.1.4022.2</ProgramVersion>
