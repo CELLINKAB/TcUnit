@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4022.18">
-  <POU Name="WRITE_PROTECTED_WORD" Id="{00031d54-f0f1-405a-8c1e-ac2fc1af74f9}" SpecialFunc="None">
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.9">
+  <POU Name="WRITE_PROTECTED_WORD" Id="{7958aecd-9f81-09a2-1a35-bb6dd127121b}" SpecialFunc="None">
     <Declaration><![CDATA[FUNCTION WRITE_PROTECTED_WORD
 VAR_INPUT
     Ptr : POINTER TO WORD;
@@ -9,5 +9,8 @@ END_VAR]]></Declaration>
     <Implementation>
       <ST><![CDATA[Ptr^ := Value;]]></ST>
     </Implementation>
+    <LineIds Name="WRITE_PROTECTED_WORD">
+      <LineId Id="2" Count="0" />
+    </LineIds>
   </POU>
 </TcPlcObject>
